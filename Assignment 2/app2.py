@@ -3,6 +3,7 @@ import streamlit as st
 st.title("WORLD OF CHATBOTS")
 
 personality=st.selectbox("Who do you want to talk to?", ["Virat Kohli", "Ms Dhoni", "Donald Trump", "Dr. Modi", "CustomPersonality"])
+# personality = st.sidebar.selectbox("Choose your multiverse personality...", ["Virat Kohli field rage mode", "An angry Ravi Shashtri", "Siddhu paaji in jolly mood", "CustomPersonality"])
 
 personality_prompt=personality
 
